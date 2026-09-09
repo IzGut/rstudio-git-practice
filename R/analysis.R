@@ -1,9 +1,8 @@
-sales <- data.frame(
-  product = c("Notebook", "Pen", "Notebook", "Marker", "Pen"),
-  quantity = c(4, 10, 3, 6, 8),
-  price = c(5, 2, 5, 3, 2)
-)
+sales <- read.csv("data/sales.csv")
 
 sales$revenue <- sales$quantity * sales$price
 
+total_revenue <- sum(sales$revenue)
+
 print(sales)
+print(total_revenue)
