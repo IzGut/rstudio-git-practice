@@ -5,4 +5,5 @@ sales$revenue <- sales$quantity * sales$price
 total_revenue <- sum(sales$revenue)
 
 print(sales)
+print(sales)
 print(total_revenue)
