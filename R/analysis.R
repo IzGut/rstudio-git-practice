@@ -14,4 +14,9 @@ barplot(
   ylab = "Revenue"
 )
 
+mean_price <- mean(sales$price)
+mean_quantity <- mean(sales$quantity)
+print(mean_price)
+print(mean_quantity)
+
 
